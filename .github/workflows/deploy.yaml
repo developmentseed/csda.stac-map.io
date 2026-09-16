@@ -30,7 +30,7 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - name: Build
         run: yarn build
         env:
