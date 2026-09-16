@@ -36,7 +36,7 @@ jobs:
         env:
           VITE_BASE_PATH: /
           VITE_DEFAULT_HREF: https://csdap.earthdata.nasa.gov/stac/
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: ./dist
   deploy:
